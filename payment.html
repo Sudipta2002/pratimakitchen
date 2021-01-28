@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Gateway</title>
+    <link rel="stylesheet" href="css/nonvegstyle.css">
+</head>
+
+<body>
+    <header>
+        <h1>PAYMENT GATEWAY</h1>
+    </header>
+    <nav>
+        <a href="home.html">HOME</a>
+        <a href="nonveg.html">NON VEG</a>
+        <a href="veg.html">VEG</a>
+        <a href="chinese.html">CHINESE</a>
+        <a href="login.html">Login/Sign Up</a>
+        <a href="payment.html">Payment Gateway</a>
+    </nav>
+    <main>
+        <h2>Personal details</h2>
+        <form action="">
+
+            <p>First Name: *<input type="text" name="name_first" required></p>
+            <p>Last Name: *<input type="text" name="name_last" required></p>
+            <fieldset>
+                <legend>Gender *</legend>
+                <p>
+                    Male <input type="radio" name="Gender" id="Pola" required> Female <input type="radio" name="Gender" id="pine" required> Other <input type="radio" name="Gender" id="trans" required>
+                </p>
+            </fieldset>
+            <p>E-mail: *<input type="email" name="email" id="email" required></p>
+            <p>Pincode: *<input type="number" name="pincode" id=" pincode" required></p>
+            <h2>Payment details</h2>
+
+            <p>Card type : *<select name="card_type" id="card_type">
+            <option value="----**Select Card Type**----"></option>
+            <option value="Master Card"required>Master Card</option>
+            <option value="Visa Card"required>Visa Card</option>
+            <option value="RuPay Card"required>RuPay Card</option>
+            </select>
+            </p>
+            <p>Card number:* <input type="number" name="card_number" id="card_number" required></p>
+            <p>CVV number:* <input type="password" name="password" id="password" required></p>
+            <p>Card Expiry date:* <input type="date" name="card_expiry" id="card_expiry" required></p>
+            <p>Enter the amount:* <input type="number" name="amount" id="amount" required></p>
+            <input type="submit" value="Pay Now">
+        </form>
+    </main>
+    <footer>
+        <a href="#">FAQ</a>
+        <a href="contactus.html">Contact Us</a>
+        <a href="#">Refund Policy</a>
+        <a href="#">Business Enquierry</a>
+        <a href="#">&copy; 2020|Pratima's Kitchen</a>
+    </footer>
+
+</body>
+
+</html>
